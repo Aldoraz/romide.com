@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useState } from 'react';
 
 export default function Portfolio() {
@@ -8,16 +7,16 @@ export default function Portfolio() {
   const [age, setAge] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    setInterval(() => {
       const germanTime = new Date().toLocaleTimeString('de-DE', { timeZone: 'Europe/Berlin' });
       setCurrentTime(germanTime);
     }, 1000);
 
-    var today = new Date();
-    var birthDateString = process.env.NEXT_PUBLIC_BIRTHDATE || '';
-    var birthDate = new Date(birthDateString);
-    var age = today.getFullYear() - birthDate.getFullYear();
-    var m = today.getMonth() - birthDate.getMonth();
+    const today = new Date();
+    const birthDateString = process.env.NEXT_PUBLIC_BIRTHDATE || '';
+    const birthDate = new Date(birthDateString);
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const m = today.getMonth() - birthDate.getMonth();
     if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
       age--;
     }
