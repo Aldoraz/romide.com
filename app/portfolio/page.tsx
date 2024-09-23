@@ -28,7 +28,7 @@ export default function Portfolio() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <h1 className="text-4xl sm:text-5xl font-bold text-center sm:text-center font-[family-name:var(--font-geist-mono)]">Portfolio</h1>
         <ul className="list-inside list-disc text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li>Business Informatics / Information Systems Student</li>
+          <li>Business Informatics (EU) / Information Systems (US) Student</li>
           <li>Germany - {currentTime}</li>
           <li>{age} years old</li>
 
@@ -66,11 +66,6 @@ export default function Portfolio() {
             <li><strong>Spanish</strong> - A2</li>
             <li><strong>French</strong> - B1</li>
           </ol>
-
-          <li className="list-none">&nbsp;</li>
-          <li>
-            <a href="/portfolio/projects" className="underline">Projects</a>
-          </li>
         </ul>
       </main>
     </div>

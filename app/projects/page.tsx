@@ -4,9 +4,8 @@ export default function Projects() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <h1 className="text-4xl sm:text-5xl font-bold text-center sm:text-center font-[family-name:var(--font-geist-mono)]">Projects</h1>
         <ul className="list-inside list-disc text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li>Wow, much empty</li>
-          <li>...</li>
-          <li>lorem ipsum?</li>
+          <li><a href="/projects/factorio-pyanodon" className="hover:underline">Factorio Pyanodon</a></li>
+          <li><a href="/projects/factorio-space-exploration" className="hover:underline">Factorio Space Exploration</a></li>
         </ul>
       </main>
     </div>

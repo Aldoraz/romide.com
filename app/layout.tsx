@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from './components/header'
+import Footer from './components/footer';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -19,14 +20,17 @@ export const metadata: Metadata = {
   description: "Romide Portfolio & Utility Website",
 };
 
-export default function RootLayout({children,}: 
-  Readonly<{children: React.ReactNode;}>) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      > <Header />
+        className="antialiased"
+      >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
