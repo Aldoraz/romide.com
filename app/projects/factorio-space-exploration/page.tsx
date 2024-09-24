@@ -1,5 +1,5 @@
 "use client";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface Mapshot {
   folderName: string;
@@ -8,22 +8,21 @@ interface Mapshot {
   hours: number;
 }
 
-const mapshots: Mapshot[] = [
-  {
-    folderName: '000',
-    ticks_played: 0,
-    days: 0,
-    hours: 0
-  },
-
-];
-
-
 export default function FactorioSE() {
   const [selectedMapshot, setSelectedMapshot] = useState(1);
+  const [mapshots, setMapshots] = useState<Mapshot[]>([]);
+
+  useEffect(() => {
+    // Fetch the mapshots from the JSON file
+    fetch('/projects/factorio-pyanodon/mapshots/mapshots.json')
+      .then((response) => response.json())
+      .then((data) => setMapshots(data))
+      .catch((error) => console.error('Error fetching mapshots:', error));
+  }, []);
 
   const handleSliderChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSelectedMapshot(Number(event.target.value));
+    const value = Math.min(Math.max(Number(event.target.value), 1), mapshots.length);
+    setSelectedMapshot(value);
   };
 
   const currentMapshot = mapshots[selectedMapshot - 1];
@@ -42,9 +41,11 @@ export default function FactorioSE() {
           onChange={handleSliderChange}
           className="w-full"
         />
-        <div className="mt-2 text-lg">
-          Hours: {currentMapshot.hours}, Days: {currentMapshot.days}
-        </div>
+        {currentMapshot && (
+          <div className="mt-2 text-lg">
+            Hours: {currentMapshot.hours}, Days: {currentMapshot.days}
+          </div>
+        )}
       </div>
 
       {/* Mapshot Display */}

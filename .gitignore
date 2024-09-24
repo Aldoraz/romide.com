@@ -37,4 +37,6 @@ next-env.d.ts
 
 # Factorio Savegames
 public/projects/factorio-pyanodon/mapshots/*
-public/projects/factorio-space-exploration/mapshots/
+!public/projects/factorio-pyanodon/mapshots/*.json
+public/projects/factorio-space-exploration/mapshots/*
+!public/projects/factorio-space-exploration/mapshots/*.json
