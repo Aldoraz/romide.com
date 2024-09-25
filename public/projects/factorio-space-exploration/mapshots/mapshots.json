@@ -1,146 +1,314 @@
 [
-  {
-      "folderName":  "000",
-      "ticks_played":  89781,
-      "days":  3,
-      "hours":  0
-  },
-  {
-      "folderName":  "001",
-      "ticks_played":  180001,
-      "days":  7,
-      "hours":  0
-  },
-  {
-      "folderName":  "002",
-      "ticks_played":  360001,
-      "days":  14,
-      "hours":  1
-  },
-  {
-      "folderName":  "003",
-      "ticks_played":  756001,
-      "days":  30,
-      "hours":  3
-  },
-  {
-      "folderName":  "004",
-      "ticks_played":  828002,
-      "days":  33,
-      "hours":  3
-  },
-  {
-      "folderName":  "005",
-      "ticks_played":  900002,
-      "days":  36,
-      "hours":  4
-  },
-  {
-      "folderName":  "006",
-      "ticks_played":  1116002,
-      "days":  44,
-      "hours":  5
-  },
-  {
-      "folderName":  "007",
-      "ticks_played":  1332001,
-      "days":  53,
-      "hours":  6
-  },
-  {
-      "folderName":  "008",
-      "ticks_played":  1512002,
-      "days":  60,
-      "hours":  7
-  },
-  {
-      "folderName":  "009",
-      "ticks_played":  1692001,
-      "days":  67,
-      "hours":  7
-  },
-  {
-      "folderName":  "010",
-      "ticks_played":  1908002,
-      "days":  76,
-      "hours":  8
-  },
-  {
-      "folderName":  "011",
-      "ticks_played":  2340001,
-      "days":  93,
-      "hours":  10
-  },
-  {
-      "folderName":  "012",
-      "ticks_played":  2556001,
-      "days":  102,
-      "hours":  11
-  },
-  {
-      "folderName":  "013",
-      "ticks_played":  2772002,
-      "days":  110,
-      "hours":  12
-  },
-  {
-      "folderName":  "014",
-      "ticks_played":  2988001,
-      "days":  119,
-      "hours":  13
-  },
-  {
-      "folderName":  "015",
-      "ticks_played":  3060001,
-      "days":  122,
-      "hours":  14
-  },
-  {
-      "folderName":  "016",
-      "ticks_played":  3204001,
-      "days":  128,
-      "hours":  14
-  },
-  {
-      "folderName":  "017",
-      "ticks_played":  3420002,
-      "days":  136,
-      "hours":  15
-  },
-  {
-      "folderName":  "018",
-      "ticks_played":  3672001,
-      "days":  146,
-      "hours":  17
-  },
-  {
-      "folderName":  "019",
-      "ticks_played":  3744002,
-      "days":  149,
-      "hours":  17
-  },
-  {
-      "folderName":  "020",
-      "ticks_played":  3852001,
-      "days":  154,
-      "hours":  17
-  },
-  {
-      "folderName":  "021",
-      "ticks_played":  4212002,
-      "days":  168,
-      "hours":  19
-  },
-  {
-      "folderName":  "022",
-      "ticks_played":  4428001,
-      "days":  177,
-      "hours":  20
-  },
-  {
-      "folderName":  "023",
-      "ticks_played":  4608001,
-      "days":  184,
-      "hours":  21
-  }
+    {
+        "folderName":  "000",
+        "ticks_played":  1613649,
+        "days":  64,
+        "hours":  7
+    },
+    {
+        "folderName":  "001",
+        "ticks_played":  3766631,
+        "days":  150,
+        "hours":  17
+    },
+    {
+        "folderName":  "002",
+        "ticks_played":  6167989,
+        "days":  246,
+        "hours":  28
+    },
+    {
+        "folderName":  "003",
+        "ticks_played":  9374204,
+        "days":  374,
+        "hours":  43
+    },
+    {
+        "folderName":  "004",
+        "ticks_played":  11828939,
+        "days":  473,
+        "hours":  54
+    },
+    {
+        "folderName":  "005",
+        "ticks_played":  13860320,
+        "days":  554,
+        "hours":  64
+    },
+    {
+        "folderName":  "006",
+        "ticks_played":  16032154,
+        "days":  641,
+        "hours":  74
+    },
+    {
+        "folderName":  "007",
+        "ticks_played":  17206264,
+        "days":  688,
+        "hours":  79
+    },
+    {
+        "folderName":  "008",
+        "ticks_played":  19270340,
+        "days":  770,
+        "hours":  89
+    },
+    {
+        "folderName":  "009",
+        "ticks_played":  21249464,
+        "days":  849,
+        "hours":  98
+    },
+    {
+        "folderName":  "010",
+        "ticks_played":  25752884,
+        "days":  1030,
+        "hours":  119
+    },
+    {
+        "folderName":  "011",
+        "ticks_played":  27144619,
+        "days":  1085,
+        "hours":  125
+    },
+    {
+        "folderName":  "012",
+        "ticks_played":  28242655,
+        "days":  1129,
+        "hours":  130
+    },
+    {
+        "folderName":  "013",
+        "ticks_played":  30010023,
+        "days":  1200,
+        "hours":  138
+    },
+    {
+        "folderName":  "014",
+        "ticks_played":  31334232,
+        "days":  1253,
+        "hours":  145
+    },
+    {
+        "folderName":  "015",
+        "ticks_played":  32710459,
+        "days":  1308,
+        "hours":  151
+    },
+    {
+        "folderName":  "016",
+        "ticks_played":  33495679,
+        "days":  1339,
+        "hours":  155
+    },
+    {
+        "folderName":  "017",
+        "ticks_played":  35235692,
+        "days":  1409,
+        "hours":  163
+    },
+    {
+        "folderName":  "018",
+        "ticks_played":  36850410,
+        "days":  1474,
+        "hours":  170
+    },
+    {
+        "folderName":  "019",
+        "ticks_played":  37593858,
+        "days":  1503,
+        "hours":  174
+    },
+    {
+        "folderName":  "020",
+        "ticks_played":  38744650,
+        "days":  1549,
+        "hours":  179
+    },
+    {
+        "folderName":  "021",
+        "ticks_played":  39669917,
+        "days":  1586,
+        "hours":  183
+    },
+    {
+        "folderName":  "022",
+        "ticks_played":  43213383,
+        "days":  1728,
+        "hours":  200
+    },
+    {
+        "folderName":  "023",
+        "ticks_played":  45138182,
+        "days":  1805,
+        "hours":  208
+    },
+    {
+        "folderName":  "024",
+        "ticks_played":  45433499,
+        "days":  1817,
+        "hours":  210
+    },
+    {
+        "folderName":  "025",
+        "ticks_played":  46603577,
+        "days":  1864,
+        "hours":  215
+    },
+    {
+        "folderName":  "026",
+        "ticks_played":  48413826,
+        "days":  1936,
+        "hours":  224
+    },
+    {
+        "folderName":  "027",
+        "ticks_played":  49911467,
+        "days":  1996,
+        "hours":  231
+    },
+    {
+        "folderName":  "028",
+        "ticks_played":  52461093,
+        "days":  2098,
+        "hours":  242
+    },
+    {
+        "folderName":  "029",
+        "ticks_played":  54043743,
+        "days":  2161,
+        "hours":  250
+    },
+    {
+        "folderName":  "030",
+        "ticks_played":  55506692,
+        "days":  2220,
+        "hours":  256
+    },
+    {
+        "folderName":  "031",
+        "ticks_played":  56582402,
+        "days":  2263,
+        "hours":  261
+    },
+    {
+        "folderName":  "032",
+        "ticks_played":  58944310,
+        "days":  2357,
+        "hours":  272
+    },
+    {
+        "folderName":  "033",
+        "ticks_played":  60460658,
+        "days":  2418,
+        "hours":  279
+    },
+    {
+        "folderName":  "034",
+        "ticks_played":  62102014,
+        "days":  2484,
+        "hours":  287
+    },
+    {
+        "folderName":  "035",
+        "ticks_played":  65973023,
+        "days":  2638,
+        "hours":  305
+    },
+    {
+        "folderName":  "036",
+        "ticks_played":  67388128,
+        "days":  2695,
+        "hours":  311
+    },
+    {
+        "folderName":  "037",
+        "ticks_played":  69130959,
+        "days":  2765,
+        "hours":  320
+    },
+    {
+        "folderName":  "038",
+        "ticks_played":  70837384,
+        "days":  2833,
+        "hours":  327
+    },
+    {
+        "folderName":  "039",
+        "ticks_played":  72618408,
+        "days":  2904,
+        "hours":  336
+    },
+    {
+        "folderName":  "040",
+        "ticks_played":  74901785,
+        "days":  2996,
+        "hours":  346
+    },
+    {
+        "folderName":  "041",
+        "ticks_played":  75633079,
+        "days":  3025,
+        "hours":  350
+    },
+    {
+        "folderName":  "042",
+        "ticks_played":  76663800,
+        "days":  3066,
+        "hours":  354
+    },
+    {
+        "folderName":  "043",
+        "ticks_played":  77314857,
+        "days":  3092,
+        "hours":  357
+    },
+    {
+        "folderName":  "044",
+        "ticks_played":  78583286,
+        "days":  3143,
+        "hours":  363
+    },
+    {
+        "folderName":  "045",
+        "ticks_played":  82533879,
+        "days":  3301,
+        "hours":  382
+    },
+    {
+        "folderName":  "046",
+        "ticks_played":  83797946,
+        "days":  3351,
+        "hours":  387
+    },
+    {
+        "folderName":  "047",
+        "ticks_played":  86051932,
+        "days":  3442,
+        "hours":  398
+    },
+    {
+        "folderName":  "048",
+        "ticks_played":  87697555,
+        "days":  3507,
+        "hours":  406
+    },
+    {
+        "folderName":  "049",
+        "ticks_played":  88298937,
+        "days":  3531,
+        "hours":  408
+    },
+    {
+        "folderName":  "050",
+        "ticks_played":  88690399,
+        "days":  3547,
+        "hours":  410
+    },
+    {
+        "folderName":  "051",
+        "ticks_played":  88922577,
+        "days":  3556,
+        "hours":  411
+    }
 ]
