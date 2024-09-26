@@ -14,7 +14,7 @@ export default function FactorioSE() {
 
   useEffect(() => {
     // Fetch the mapshots from the JSON file
-    fetch('/projects/factorio-pyanodon/mapshots/mapshots.json')
+    fetch('/projects/factorio-space-exploration/mapshots/mapshots.json')
       .then((response) => response.json())
       .then((data) => setMapshots(data))
       .catch((error) => console.error('Error fetching mapshots:', error));
