@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from './components/header'
-import Footer from './components/footer';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -17,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Romide",
-  description: "Romide Portfolio & Utility Website",
+  description: "Romide Portfolio",
 };
 
 export default function RootLayout({
@@ -28,9 +26,7 @@ export default function RootLayout({
       <body
         className="antialiased"
       >
-        <Header />
         {children}
-        <Footer />
       </body>
     </html>
   );
